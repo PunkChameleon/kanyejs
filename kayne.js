@@ -5,7 +5,7 @@
  *
  * When you want to have Kanye say something, just call 'Kanye.yell()' or 'Kanye.boast()' and you'll get a wonderful quote in your console log.
  *
- * Sources are included with eveery entry.
+ * Sources are included with every entry.
  *
  */
 
