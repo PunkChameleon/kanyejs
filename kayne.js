@@ -32,7 +32,7 @@ var Kanye = (function () {
 	};
 
 	function randomEntry(array) {
-		return Math.floor((Math.random() * array.length) + 1);
+		return Math.floor(Math.random() * array.length);
 	}
 
 	return {
