@@ -46,6 +46,18 @@ var Kanye = (function () {
 		},
 		motivate: function () {
 			console.log(quotes.motivate[randomEntry(quotes.motivate)]);
+		},
+
+		takeOver: function () {
+			var allImages = document.getElementsByTagName("img"),
+				x,
+				singleImage;
+
+			for (x = 0; x < allImages.length; x++) {
+				singleImage = allImages[x];
+				singleImage.src = 'http://www.biography.com/imported/images/Biography/Images/Profiles/W/Kanye-West-362922-1-402.jpg';
+			}
+
 		}
 	};
 
