@@ -21,6 +21,9 @@ Now, from within any of your scripts call any of these functions:
      4. Kanye.takeOver();
         - Replaces all the images in your website temporarily with a picture of Kanye.
         
+     5. Kanye.draw();
+        - Draws some awesome art in your console.
+        
   
 **Contribute**
 
