@@ -21,7 +21,8 @@ var Kanye = (function () {
 			"I am God's vessel. But my greatest pain in life is that I will never be able to see myself perform live.", // http://www.marieclaire.co.uk/blogs/suzannah-ramsdale/545140/the-best-kanye-west-quotes.html#GuOvmY5ZWKsT0S5o.99'
 			"I will go down as the voice of this generation, of this decade, I will be the loudest voice.", // http://www.marieclaire.co.uk/blogs/suzannah-ramsdale/545140/the-best-kanye-west-quotes.html#GuOvmY5ZWKsT0S5o.99"
 			"I feel like I’m too busy writing history to read it", //http://www.marieclaire.co.uk/blogs/suzannah-ramsdale/545140/the-best-kanye-west-quotes.html#GuOvmY5ZWKsT0S5o.99"
-		],	"Don’t worry about how I’m saying what I’m saying, Look at what I’m saying and how I feel and how my intent is." // http://hot937.cbslocal.com/2014/06/20/kanye-west-says-barack-obama-cant-effect-change/
+			"Don’t worry about how I’m saying what I’m saying, Look at what I’m saying and how I feel and how my intent is." // http://hot937.cbslocal.com/2014/06/20/kanye-west-says-barack-obama-cant-effect-change/
+		],
 		yell: [
 			"Cause I still ain't seen a video better than Beyoncé to this mothafuckin day!", // http://www.thedailybeast.com/articles/2013/12/11/the-31-best-kanye-west-quotes-of-2013.html
 			"I am Warhol!", // http://www.thedailybeast.com/articles/2013/12/11/the-31-best-kanye-west-quotes-of-2013.html
