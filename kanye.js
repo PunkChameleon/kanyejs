@@ -38,15 +38,19 @@ var Kanye = (function () {
 		return array[Math.floor(Math.random() * array.length)];
 	}
 
+	function doQuote(quotes) {
+		console.log(randomEntry(quotes));
+	}
+
 	return {
 		boast: function () {
-			console.log(randomEntry(quotes.boast));
+			doQuote(quotes.boast);
 		},
 		yell: function () {
-			console.log(randomEntry(quotes.yell));
+			doQuote(quotes.yell);
 		},
 		motivate: function () {
-			console.log(randomEntry(quotes.motivate));
+			doQuote(quotes.motivate);
 		},
 
 		takeOver: function () {
