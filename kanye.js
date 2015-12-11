@@ -5,6 +5,8 @@
  *
  * When you want to have Kanye say something, just call 'Kanye.yell()' or 'Kanye.boast()' and you'll get a wonderful quote in your console log.
  *
+ * Pass a callback function that takes a Kanye quote to do whatever you want with it.
+ *
  * Sources are included with every entry.
  *
  */
@@ -38,19 +40,23 @@ var Kanye = (function () {
 		return array[Math.floor(Math.random() * array.length)];
 	}
 
-	function doQuote(quotes) {
-		console.log(randomEntry(quotes));
+	function doQuote(quotes, callback) {
+		if(callback) {
+			callback(randomEntry(quotes));
+		} else {
+			console.log(randomEntry(quotes));
+		}
 	}
 
 	return {
-		boast: function () {
-			doQuote(quotes.boast);
+		boast: function (immaLetYouFinishBut) {
+			doQuote(quotes.boast, immaLetYouFinishBut);
 		},
-		yell: function () {
-			doQuote(quotes.yell);
+		yell: function (immaLetYouFinishBut) {
+			doQuote(quotes.yell, immaLetYouFinishBut);
 		},
-		motivate: function () {
-			doQuote(quotes.motivate);
+		motivate: function (immaLetYouFinishBut) {
+			doQuote(quotes.motivate, immaLetYouFinishBut);
 		},
 
 		takeOver: function () {
