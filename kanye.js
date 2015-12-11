@@ -35,18 +35,18 @@ var Kanye = (function () {
 	};
 
 	function randomEntry(array) {
-		return Math.floor(Math.random() * array.length);
+		return array[Math.floor(Math.random() * array.length)];
 	}
 
 	return {
 		boast: function () {
-			console.log(quotes.boast[randomEntry(quotes.boast)]);
+			console.log(randomEntry(quotes.boast));
 		},
 		yell: function () {
-			console.log(quotes.yell[randomEntry(quotes.yell)]);
+			console.log(randomEntry(quotes.yell));
 		},
 		motivate: function () {
-			console.log(quotes.motivate[randomEntry(quotes.motivate)]);
+			console.log(randomEntry(quotes.motivate));
 		},
 
 		takeOver: function () {
